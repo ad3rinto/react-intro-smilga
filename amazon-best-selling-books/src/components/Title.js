@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title = () => {
     return (
-        <div><h2>Book Title</h2></div>
+        <div><h2>Bored of Lunch: The Healthy Slow Cooker Book</h2></div>
     )
 }
 

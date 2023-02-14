@@ -7,7 +7,7 @@ import Author from './Author';
 function Book() {
     return (
 
-        <article>
+        <article className='book'>
             <Image />
             <Title />
             <Author />

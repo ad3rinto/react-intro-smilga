@@ -1,11 +1,14 @@
 import Book from './components/Book';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <section className='booklist'>
       <Book />
-    </div>
+      <Book />
+      <Book />
+      <Book />
+    </section>
   );
 }
 
