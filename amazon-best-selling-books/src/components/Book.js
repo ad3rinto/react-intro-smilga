@@ -1,16 +1,14 @@
 import React from 'react'
-import Image from './Image';
-import Title from './Title';
-import Author from './Author';
 
 
-function Book() {
+
+function Book(props) {
     return (
 
         <article className='book'>
-            <Image />
-            <Title />
-            <Author />
+            <img src={props.img} alt="bookies" />
+            <h2>{props.title}</h2>
+            <h4>{props.author}</h4>
         </article>
 
     );
