@@ -1,11 +1,11 @@
 import React from 'react'
 
-function EventsExamples() {
+function EventsExamples(props) {
     const handleFormInput = () => {
         console.log("Handle form input")
     }
     const handleButtonClick = () => {
-        console.log("Handle button click")
+        console.log(props.title)
     }
     return (
         <div>
