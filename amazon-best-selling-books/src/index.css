@@ -68,3 +68,9 @@ h1 {
   border-bottom-left-radius: 1rem;
   color: #fff;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}

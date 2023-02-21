@@ -7,7 +7,8 @@ import { books } from './listOfBooks';
 
 
 const newBooks = books.map((item, index) => {
-  return (<><Book img={item.img} author={item.author} title={item.title} key={item.id} books={books} id={item.id} number={index} />
+  return (<>
+    <Book img={item.img} author={item.author} title={item.title} key={item.id} books={books} id={item.id} number={index} />
 
   </>)
 })
@@ -18,11 +19,14 @@ const newBooks = books.map((item, index) => {
 
 const App = () => {
   return (
-    <section className='booklist'>
-      {newBooks}
-      )
+    <>
+      <h1>Amazon Best Selling Books</h1>
+      <section className='booklist'>
+        {newBooks}
+        )
 
-    </section>
+      </section>
+    </>
   );
 }
 
