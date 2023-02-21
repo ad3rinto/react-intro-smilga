@@ -1,6 +1,6 @@
 import Book from './components/Book';
 // import './App.css';
-import books from './listOfBooks';
+import { books } from './listOfBooks';
 
 
 
