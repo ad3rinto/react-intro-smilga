@@ -22,9 +22,10 @@ function Book(props) {
             <img src={props.img} alt="bookies" />
             <h2>{props.title}</h2>
             <h4>{props.author}</h4>
+            <span className='number'>{`#${props.number + 1}`}</span>
         </article>
 
-    );
+    )
 
 }
 
