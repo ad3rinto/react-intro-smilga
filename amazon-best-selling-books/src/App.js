@@ -7,7 +7,7 @@ import books from './listOfBooks';
 
 
 const newBooks = books.map((item) => {
-  return (<><Book img={item.img} author={item.author} title={item.title} key={item.id} />
+  return (<><Book img={item.img} author={item.author} title={item.title} key={item.id} books={books} id={item.id} />
 
   </>)
 })
