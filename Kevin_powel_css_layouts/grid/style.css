@@ -7,17 +7,18 @@
 }
 
 img {
-	width: 300px;
+	width: 250px;
 	height: 200px;
-	border-radius: 10%;
+	padding: 20px;
+	border-radius: 50%;
 }
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 40px;
-	padding: 50px auto;
-	margin: 150px;
+	padding: 150px auto;
+	margin: 0 150px;
 	justify-items: center;
 }
 
@@ -32,5 +33,16 @@ section {
 }
 
 p {
-	width: 400px;
+	width: 250px;
+	padding: 20px;
+}
+header {
+	background-color: chocolate;
+	height: 200px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+header h1 {
+	padding-top: 60px;
+	padding-bottom: 10px;
 }
