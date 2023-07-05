@@ -21,6 +21,19 @@ main {
 	margin: 0 150px;
 	justify-items: center;
 }
+@media (max-width: 600px) {
+	main {
+		grid-template-columns: 1fr;
+		margin: auto;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1140px) {
+	main {
+		grid-template-columns: 1fr 1fr;
+		margin: auto;
+	}
+}
 
 section {
 	background-color: beige;
@@ -35,6 +48,7 @@ section {
 p {
 	width: 250px;
 	padding: 20px;
+	opacity: 50%;
 }
 header {
 	background-color: chocolate;
