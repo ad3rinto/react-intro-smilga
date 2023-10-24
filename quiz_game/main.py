@@ -8,7 +8,7 @@ length_of_questions = len(question_data)
 
 
 for item in range(length_of_questions):
-    q_data = Question(question_data[item]["text"], question_data[item]["answer"])
+    q_data = Question(question_data[item]["question"], question_data[item]["correct_answer"])
     question_bank.append(q_data)
 
 
