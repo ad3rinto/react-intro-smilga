@@ -5,9 +5,11 @@ tim = Turtle()
 tim.color("red")
 tim.shape("turtle")
 
-for i in range(4):
-    tim.forward(100)
-    tim.left(90)
+for i in range(40):
+    tim.pendown(10)
+    tim.forward(10)
+    tim.pendown(10)
+    tim.forward(10)
 
     
 
